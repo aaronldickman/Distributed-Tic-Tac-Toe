@@ -6,7 +6,7 @@ Final project for my Spring 2021 Network Programming class.
 
 This repository contains the server-half of a client-server pair. An example of a client that functions with this server can be found [here](https://github.com/smebellis/network-programming-testing)
 
-A net-enabled version of Tic-Tac-Toe that utilizes a client-server architecture.
+A net-enabled version of Tic-Tac-Toe for linux systems that utilizes a client-server architecture.
 
 Clients wishing to play a game with this server should note [this protocol](https://docs.google.com/document/d/1E5XI42jO6iDmBcSroVjviawFnzupJ8s6WlhOGb2VGCQ/edit?usp=sharing). Notable differences from previous version:
 * Server is now capable of receiving multicasts from clients whose connection with their previous server dropped and are seeking to resume a game.
